@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* background-color: #E1CEBF; */
 }
 
 .App-logo {
@@ -35,4 +36,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+Link{
+  text-decoration: none;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
 }
